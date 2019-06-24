@@ -1,0 +1,359 @@
+/*============================================
+	### Responsive Mobile-First Media Queries ###
+================================================= */
+
+/* ----------------- max1199px ------------------ */
+/* ---------------------------------------------- */
+@media(max-width: 1199.98px) {
+    .carousel-caption h3 {
+        font-size: 28px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 28px;
+    }
+
+    .carousel-caption p {
+        max-width: 410px;
+    }
+
+    .img-aftr img {
+        width: 550px;
+        height: 450px;
+    }
+
+    .pages-section {
+        padding-top: 70px;
+    }
+
+    .page-heading-content h2 {
+        font-size: 32px;
+    }
+
+    .Portfolio-section {
+        padding: 70px;
+    }
+
+    .our-services-section,
+    .our-pricing-plan-section,
+    .our-clients-section,
+    .footer-main {
+        padding: 70px 0;
+    }
+
+    .sectiion-heading-content h2 {
+        font-size: 32px;
+    }
+
+    .follw-us-content h4 {
+        display: inline-block;
+        float: none;
+        padding: 0;
+    }
+
+    .nav.follw-us {
+        margin: 0;
+    }
+
+    .form-inline .form-control {
+        width: 68%;
+    }
+
+
+}
+
+/* ----- End max1199px ----- */
+
+
+
+/* ----------------- max992px ------------------ */
+/* ---------------------------------------------- */
+
+@media(max-width: 991.98px) {
+    .header-top {
+        display: none;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+    }
+
+    .carousel-caption h3 {
+        font-size: 24px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 24px;
+    }
+
+    .carousel-caption p {
+        display: none;
+    }
+
+    .btn-banner {
+        margin-top: 20px;
+    }
+
+    .img-aftr img {
+        width: 380px;
+        height: 350px;
+    }
+
+    .pages-section {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+
+    .page-heading-content p {
+        max-width: 570px;
+        padding: 20px 0;
+        margin: 0 auto;
+    }
+
+    .page-right-content {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .page-content {
+        padding: 30px 20px;
+    }
+
+    .page-content p {
+        max-width: 310px;
+        font-size: 14px;
+        margin: 0 auto;
+        text-align: justify;
+    }
+
+    .page-left-content-img {
+        display: none;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .card-header p {
+        font-size: 14px;
+    }
+
+    .card-header h4 {
+        font-size: 20px;
+    }
+
+    .card-body h5 {
+        font-size: 34px;
+    }
+
+    .owl-img img {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .follw-us-content h4 {
+        display: inline-block;
+        float: left;
+        padding: 4px 0;
+    }
+
+    .footer-heading {
+        padding-bottom: 20px;
+    }
+
+    form.form-inline {
+        padding: 20px 0;
+    }
+
+    .scrollup {
+        right: 10px;
+    }
+}
+
+/* ----- End max992px ----- */
+
+/* ----------------- max768px ------------------ */
+/* ---------------------------------------------- */
+@media(max-width: 767.98px) {
+    .carousel-caption h3 {
+        font-size: 30px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 30px;
+    }
+
+    .btn-banner {
+        margin-right: 10px;
+    }
+
+    .img-aftr img {
+        display: none;
+    }
+
+    .page-heading-content h2 {
+        font-size: 28px;
+    }
+
+    .sectiion-heading-content h2 {
+        font-size: 28px;
+    }
+
+    .our-clients-heading-content h2 {
+        font-size: 28px;
+
+    }
+
+    .owl-img img {
+        padding-left: 1.9rem !important;
+        padding-right: 1.9rem !important;
+    }
+
+    .footer-heading h2 {
+        font-size: 28px;
+    }
+
+}
+
+
+/* ----- End max768px ----- */
+
+/* ----------------- max575px ------------------ */
+/* ---------------------------------------------- */
+@media (min-width:480px) and (max-width: 575.98px) {
+
+    .carousel-caption h3 {
+        font-size: 24px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 24px;
+    }
+
+    .btn-banner {
+        margin-top: 5px;
+    }
+
+    .page-heading-content h2 {
+        font-size: 24px;
+    }
+
+    .page-heading-content p {
+        max-width: 360px;
+        text-align: justify;
+    }
+
+    .sectiion-heading-content h2 {
+        font-size: 24px;
+    }
+
+    .meet-our-content h4 {
+        font-size: 20px;
+    }
+
+    .our-services-section,
+    .our-pricing-plan-section,
+    .our-clients-section,
+    .footer-main {
+        padding: 50px 0;
+    }
+
+    .sectiion-heading-content p,
+    .our-clients-heading-content p {
+        max-width: 360px;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+
+        {
+        max-width: 360px;
+        padding: 30px 0;
+    }
+    .scrollup {
+        bottom: 70px;
+    }
+
+}
+
+
+/* ----- End max575px ----- */
+
+/* ----------------- max575px ------------------ */
+/* ---------------------------------------------- */
+@media(max-width: 479.98px) {
+    .carousel-caption {
+        left: 15%;
+    }
+
+    .carousel-caption {
+        padding-top: 12px;
+        padding-bottom: 24px;
+
+    }
+
+    .carousel-caption h3 {
+        font-size: 12px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 12px;
+    }
+
+    .btn-banner {
+        margin-top: 20px;
+        display: none;
+    }
+
+    .pages-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .page-heading-content h2 {
+        font-size: 18px;
+    }
+
+    .page-content h3 {
+        font-size: 20px;
+
+    }
+
+    .Portfolio-section {
+        padding: 40px;
+    }
+
+    .sectiion-heading-content h2 {
+        font-size: 20px;
+    }
+
+    .our-services-section,
+    .our-pricing-plan-section,
+    .our-clients-section,
+    .footer-main {
+        padding: 40px 0;
+    }
+
+    .card-header h4 {
+        font-size: 18px;
+    }
+
+    .our-clients-heading-content h2 {
+        font-size: 20px;
+    }
+
+    .footer-heading h2 {
+        font-size: 20px;
+    }
+
+    .follw-us-content h4 {
+        display: inline-block;
+        float: none;
+        padding: 0;
+    }
+
+    .scrollup {
+        bottom: 70px;
+    }
+}
+
+/* ----- End max575px ----- */
